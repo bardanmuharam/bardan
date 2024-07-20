@@ -41,8 +41,8 @@ footer {
 }
 
 .featured-image {
-    width: 100%; /* Make images responsive */
-    max-width: 600px; /* Set a max-width to prevent large images on wide screens */
+    width: 100%; 
+    max-width: 600px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -69,29 +69,12 @@ footer {
     background-repeat: no-repeat;
 }
 
-nav ul {
-    padding-inline: 4rem;
-    display: flex;
-    gap: 2rem;
-    justify-content: center; /* Center align navigation items */
-}
-
-nav li {
-    list-style-type: none;
-}
-
-nav {
-    background-color: #850202;
-    padding: 5px;
-    position: sticky;
-    top: 0;
-}
 
 main {
     padding: 20px;
     display: flex;
     gap: 1.5rem;
-    flex-wrap: wrap; /* Allow wrapping of flex items */
+    flex-wrap: wrap; 
 }
 
 #content {
@@ -106,7 +89,7 @@ aside {
 }
 
 header {
-    display: block; /* Ensure header behaves like a block element */
+    display: block;
 }
 
 @media screen and (max-width: 1200px) {
@@ -120,7 +103,7 @@ header {
 
 @media screen and (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Stack navigation items vertically */
+        flex-direction: column;
         justify-content: center;
         padding-inline: 1rem;
     }
@@ -140,12 +123,6 @@ header {
     text-align: justify;
 }
 
-nav a {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
-}
 
 audio {
     margin-top: 10px;

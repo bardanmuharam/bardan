@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil dan Kisah Ikonik Band Green Day</title>
+    <title>Playlist</title>
     <link rel="stylesheet" href="css/playlist.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
 
     <main>
         <div id="content">
-            <article id="Sejarah" class="card">
+            <article id="Basket Case" class="card">
                 <h2>Basket Case</h2>
                 <img src="img/basketcase.jpg" alt="Basket Case" class="featured-image" />
                 <audio controls>
